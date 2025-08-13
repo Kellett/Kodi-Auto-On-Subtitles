@@ -1,0 +1,11 @@
+<addon id="script.service.autoonsubtitles" name="AutoOnSubtitles" version="1.2.0" provider-name="Kellett">
+<requires>
+<import addon="xbmc.python" version="3.0.1"/>
+</requires>
+<extension point="xbmc.service" library="service.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>Automatically enables subtitles when video starts.</summary>
+<description>This service addon listens for playback start and turns on subtitles.</description>
+<platform>all</platform>
+</extension>
+</addon>
